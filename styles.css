@@ -1,0 +1,81 @@
+body{
+    background-color: #0e0e0ed8;
+  }
+  header, .alert{
+    z-index: 100;
+  }
+  .inicioCard{
+    background-color: rgb(29, 29, 29);
+    width: 500px;
+    height: 400px;
+    border-radius: 5px;
+    text-align: center;
+    color: white;
+    margin-left: 27rem;
+    margin-top: 12rem;
+    margin-bottom: 14.6rem;
+  } 
+  .contenedorLogin{
+    text-align: center;
+    margin: 3rem;
+  }
+  .controls{
+    margin: 0.3rem;
+  }
+  .botonLogin{
+    margin: 1rem;
+  }
+
+  .description{
+    height: 25px;
+    overflow: hidden;
+    transition: height .3s ease-in .3s;
+  }
+  .description:hover{
+    height: 80px;
+  }
+  .carrito{
+    min-height: 80vh;
+    max-width: 1000px;
+    margin: 0 auto;
+    width: 100%;
+  }
+  .table__productos{
+    display: flex;
+  }
+  .table__productos > img{
+    width: 9rem;
+    object-fit: contain;
+    border-radius: 6px;
+    margin-right: 20px;
+  }
+  .table__cantidad > input{
+    width: 40px;
+    border: none;
+    outline: 0;
+    font-size: 16px;
+    font-weight: 700;
+    margin-right: 30px;
+    margin-bottom: 20px;
+  }
+  .hide, .remove{
+    display: none;
+  } 
+  .productos {
+    overflow: hidden;
+    box-shadow: 0px 0px px -5px;
+    transition: 0.3s;
+    animation: ease-in-out;
+    border-radius: 10px;
+}
+
+  .productos:hover{
+    transform: scale(1.1);
+    box-shadow: 0px 0px 0px 0px;
+}
+
+
+  img{
+    width: 300px;
+    height: 300px;
+  }
